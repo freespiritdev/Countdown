@@ -1,0 +1,13 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+#days, #hours, #minutes, #seconds {
+    padding: 3px 4px;
+    margin: 0 2px;
+    font-size: 5em;
+}
+
+.title {
+    text-align: center;    
+}

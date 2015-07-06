@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countdown</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body bgcolor="#FF8000">
+<h1>Event Name</h1>
+
+    <table class="container">
+      <tr>
+        <td id="days">0</td>
+        <td id="hours">0</td>
+        <td id="minutes">0</td>
+        <td id="seconds">0</td> 
+      </tr>
+      <tr class="title">
+        <td>days</td>
+        <td>hours</td>
+        <td>minutes</td>
+        <td>seconds</td>
+      </tr>
+    </table>
+    <br>
+    <div >
+      <h3>July 24, 2015</h3>
+    </div>
+</div>
+
+<script src="cd.js"></script>
+<script>
+    var end = new Date("24 July, 2015");
+    var da = document.getElementById("days");
+    var ho = document.getElementById("hours");
+    var mi = document.getElementById("minutes");
+    var se = document.getElementById("seconds");
+    startCount(end, da, ho, mi, se);
+</script>
+</body>
+</html>
+
